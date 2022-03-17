@@ -35,8 +35,8 @@ public class Activator implements BundleActivator {
 		System.out.println("----------MyPos - Employee Manager----------");
 		System.out.println("1  - Add Employee");
 		System.out.println("2  - Get all Employees");
-		System.out.println("3  - Search Employee from NIC");
-		System.out.println("4  - Delete Employee from NIC");
+		System.out.println("3  - Search Employee from Id");
+		System.out.println("4  - Delete Employee from Id");
 		System.out.print("Choose an option : ");
 		
 		option = Integer.parseInt(sc.nextLine().trim());
